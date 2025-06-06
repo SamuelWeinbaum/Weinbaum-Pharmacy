@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hilbert Spaces &amp; Quantum Mechanics Reading Group – Summer 2025</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e0f0ff;
+      color: #111;
+    }
+    header {
+      background-color: #b8dfff;
+      padding: 1rem;
+      text-align: center;
+      border-bottom: 1px solid #aaccee;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #003366;
+    }
+    header h2 {
+      margin: 0.25rem 0 0;
+      font-size: 1.25rem;
+      color: #003366;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1000px;
+      margin: 2rem auto;
+      gap: 1rem;
+      padding: 0 1rem;
+    }
+    .box {
+      background-color: #d9ecff;
+      border: 1px solid #aaccee;
+      border-radius: 4px;
+      padding: 1rem;
+      flex: 1 1 45%;
+      box-sizing: border-box;
+    }
+    .box.full-width {
+      flex: 1 1 100%;
+    }
+    .box h3 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: #002244;
+      border-bottom: 1px solid #aaccee;
+      padding-bottom: 0.25rem;
+    }
+    .box p, .box li {
+      line-height: 1.4;
+      margin: 0.5rem 0;
+    }
+    .box a {
+      color: #003399;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .box a:hover {
+      text-decoration: underline;
+    }
+    .talk-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .talk-list li {
+      margin-bottom: 0.75rem;
+    }
+    .talk-title {
+      font-weight: bold;
+      color: #002244;
+    }
+    .talk-date {
+      color: #444;
+      font-style: italic;
+      margin-right: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      margin: 2rem 0;
+      color: #555;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hilbert Spaces &amp; Quantum Mechanics</h1>
+    <h2>Reading Group – Summer 2025</h2>
+  </header>
+
+  <div class="container">
+    <!-- "What" section -->
+    <div class="box">
+      <h3>What</h3>
+      <p>This is the webpage for the Summer 2025 Reading Group on Hilbert Spaces and Quantum Mechanics, organized by McGill students. We will be working through the lecture notes:</p>
+      <p><a href="HSQM.pdf" target="_blank">“Lecture Notes on Hilbert Spaces and Quantum Mechanics”</a> by N.P. Landsman.</p>
+      <p>These notes introduce the fundamentals of Hilbert spaces (completeness, orthogonality, bases), bounded and unbounded operators, spectral theory, and the mathematical formalism underpinning quantum mechanics (states, observables, the Schrödinger equation, and spectral decompositions).</p>
+      <p>We meet twice a week, every Monday and Wednesday, from 4 PM to 5 PM in BURN 1234.</p>
+      <p>For more information or to receive meeting notes, email <a href="mailto:hsqm.group@mcgill.ca">hsqm.group@mcgill.ca</a>.</p>
+    </div>
+
+    <!-- "Next Talks" section -->
+    <div class="box">
+      <h3>Next Talks</h3>
+      <ul class="talk-list">
+        <li>
+          <span class="talk-date">07/06</span>
+          <span class="talk-title">Introduction to Hilbert Spaces</span><br/>
+          <em>Speaker:</em> Isabelle Chen, <em>Topic:</em> Basic definitions: metric spaces, normed spaces, inner products; examples (ℓ², L²).<br/>
+          <em>Description:</em> We will cover the definitions of inner products and norms, illustrate classical examples such as ℓ²(ℕ) and L²([a,b]), and discuss convergence and completeness. Emphasis on why these spaces are the natural setting for quantum states.
+        </li>
+        <li>
+          <span class="talk-date">09/06</span>
+          <span class="talk-title">Orthonormal Bases &amp; Projections</span><br/>
+          <em>Speaker:</em> David Müller, <em>Topic:</em> Orthonormal bases, Gram–Schmidt, Parseval’s identity.<br/>
+          <em>Description:</em> Constructing orthonormal bases in infinite-dimensional Hilbert spaces via Gram–Schmidt, proving existence of bases in separable spaces, deriving vector expansions as series, and explaining the Pythagorean theorem and Parseval’s identity.
+        </li>
+      </ul>
+    </div>
+
+    <!-- "Past Talks" section: full width -->
+    <div class="box full-width">
+      <h3>Past Talks</h3>
+      <ul class="talk-list">
+        <li>
+          <span class="talk-date">31/05</span>
+          <span class="talk-title">Metric Spaces &amp; Completion</span><br/>
+          <em>Speaker:</em> Sam Weinbaum, <em>Topic:</em> From metric spaces to Banach spaces.<br/>
+          <em>Description:</em> Definition of metrics, Cauchy sequences, completeness. Construction of completions via equivalence classes of Cauchy sequences. Examples: (ℚ, |·|) → ℝ, Cc(Ω) → L²(Ω).
+        </li>
+        <li>
+          <span class="talk-date">28/05</span>
+          <span class="talk-title">Normed Spaces &amp; Hilbert Spaces</span><br/>
+          <em>Speaker:</em> Zhaoshen Zhai, <em>Topic:</em> Norms from inner products; Banach vs. Hilbert spaces.<br/>
+          <em>Description:</em> Jordan–von Neumann theorem: characterization of inner-product norms (parallelogram law). Examples of ℓᵖ and Lᵖ spaces for p≠2. Definition of Hilbert spaces as complete inner-product spaces.
+        </li>
+        <li>
+          <span class="talk-date">21/05</span>
+          <span class="talk-title">Orthogonality &amp; Projections</span><br/>
+          <em>Speaker:</em> Bo Peng, <em>Topic:</em> Orthogonal complements, projection theorem.<br/>
+          <em>Description:</em> Definition of orthogonality; orthogonal complements and properties; projection onto a closed subspace; existence and uniqueness of the nearest point in a closed convex set.
+        </li>
+        <li>
+          <span class="talk-date">14/05</span>
+          <span class="talk-title">Bounded Operators &amp; the Spectral Theorem (Part I)</span><br/>
+          <em>Speaker:</em> Samy Lahlou, <em>Topic:</em> Bounded linear operators, adjoint, normal operators.<br/>
+          <em>Description:</em> Definition of bounded operators; operator norm; adjoint operator; properties of self-adjoint, unitary, and normal operators; introduction to the spectral theorem for compact self-adjoint operators.
+        </li>
+        <li>
+          <span class="talk-date">08/05</span>
+          <span class="talk-title">Bounded Operators &amp; the Spectral Theorem (Part II)</span><br/>
+          <em>Speaker:</em> Samy Lahlou, <em>Topic:</em> Eigenfunction expansions in L², compact operators.<br/>
+          <em>Description:</em> Proof of the spectral theorem for compact, self-adjoint operators on a separable Hilbert space; examples from integral kernels and symmetric matrices; connection to expansions in orthonormal eigenfunctions.
+        </li>
+        <li>
+          <span class="talk-date">06/05</span>
+          <span class="talk-title">Functionals &amp; Riesz Representation</span><br/>
+          <em>Speaker:</em> Samy Lahlou, <em>Topic:</em> Bounded linear functionals and the Riesz theorem.<br/>
+          <em>Description:</em> Dual space of a Hilbert space; statement and proof of the Riesz representation theorem: every bounded linear functional arises from an inner product with a unique vector in H.
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 McGill Hilbert Spaces &amp; QM Reading Group
+  </footer>
+</body>
+</html>
